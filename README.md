@@ -16,9 +16,7 @@ Create objects from classes
 Become familiar with UML (unified modeling language)
 Define a class that is composed of an already existing class
 
-Composition
-
-Composition means to design a class that is composed of already defined classes. This creates a relationship referred to as a “has-a” relationship, where one class contains a reference to another. An example would be if we defined two classes: Person and Address. A Person “has-a” Address. In the Person class we would include a property called address of type Address.
+Sometimes, it makes sense to create a class that is made up of already defined classes. This creates a relationship referred to as a “has-a” relationship, where one class contains a reference to another. An example would be if we defined two classes: Person and Address. A Person “has-a” Address. In the Person class we would include a property called address of type Address.
 
 public class Person {
 
